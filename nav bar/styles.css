@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(252, 232, 232);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.img1 {
+  cursor: pointer;
+  box-shadow: 2px 2px 3px rgb(255, 139, 139);
+  margin-right: auto;
+}
+.nav1 li {
+  display: inline-block;
+  padding: 10px;  
+}
+a {
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  font-weight: 900%;
+  text-decoration: none;
+  transition: all 0.3 ease;
+  text-shadow: 2px 2px 3px rgb(46, 40, 40);
+}
+a:hover{
+  color: blue;
+}
+button {
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: blueviolet;
+}
+button:hover{
+  color: white;
+  opacity: 0.5;
+}
